@@ -1,0 +1,176 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFFB73;
+   padding: 20px;
+   justify-content: space-around;
+}
+.R-1{
+    color: #D80032;
+}
+.E-1{
+    color: #FF6C22;
+}
+.N{
+    color:#557C55 ;
+}
+.K{
+    color: #876445;
+}
+.L{
+    color: #FEA1A1;
+}
+.E-2{
+    color: #39A7FF;
+}
+.R-2{
+    color: #7743DB;
+}
+
+.link>a{
+padding: 10px;
+font-size: 20px;
+color: black;
+text-decoration: none;
+}
+
+.grid-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns:repeat(5,200px) ;
+    grid-template-rows: repeat(2,300px) ;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-size:18px;
+}
+
+.yellow{
+    background-color: #FFFB73;
+}
+.red{
+    background-color: #D80032;
+}
+.orange{
+    background-color: #FF6C22;
+}
+.green{
+    background-color: #557C55;
+}
+.blue{
+    background-color: #39A7FF;
+}
+.brown{
+    background-color: #876445;
+}
+.purple{
+    background-color: #7743DB;
+}
+.pink{
+background-color: #FEA1A1;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+
+.grid-container>div{
+    border: 1px solid black;
+}
+.grid-container p{
+    display: flex;
+    height: 27vh;
+    justify-content: center;
+    align-items: center;
+}
+.float>div{
+    display: block;
+    float: left;
+    clear: both;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 5vh;
+    margin-left: 80vh;
+    margin-bottom: 10vh;
+}
+
+.float p{
+    font-size: 18px;
+    font-weight: bolder;
+    float:left;
+    margin-top: 12vh;
+   margin-left: 15vh;
+   
+}
+h2{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.sarı{
+    background-color: #FFFB73;
+}
+.kırmızı{
+    background-color: #D80032;
+}
+.turuncu{
+    background-color: #FF6C22;
+}
+.yeşil{
+    background-color: #557C55;
+}
+.mavi{
+    background-color: #39A7FF;
+}
+.kahverengi{
+    background-color: #876445;
+}
+.mor{
+    background-color: #7743DB;
+}
+.pembe{
+background-color: #FEA1A1;
+}
+.beyaz{
+    background-color: white;
+}
+.siyah{
+    background-color: black;
+}
+
+.hr-2{
+    clear: both;
+}
+.footer{
+    background-color: #FFFB73;
+    font-size: 25px;
+    text-align: center;
+   padding: 20px;
+   clear: both;
+}
+
+@media (min-width:400px) and (max-width:960px){
+.flex-container *{
+    padding:5px;
+}
+.flex-container input{
+    margin-top: 25px;
+}
+.grid-container{
+    grid-template-columns: repeat(2,150px);
+    grid-template-rows:repeat(5,200px);  
+}
+.grid-container p{
+ height: 18vh;
+}
+.float>div {
+    margin: 0;
+    margin-top: 10px;
+    float: left;
+}
+}
